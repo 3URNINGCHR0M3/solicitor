@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>solicitor</artifactId>
+        <groupId>net.forje</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <groupId>net.forje</groupId>
+    <artifactId>solicitor-lib</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>Solicitor Library</name>
+    <description>
+        The solicitor implementation.  This code can be invoked form other Java code or from the command line via a
+        script.  The Solicitor Binaries project for scripts which can be used to invoke the command line form.
+    </description>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
