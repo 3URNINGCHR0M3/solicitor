@@ -12,6 +12,6 @@
     <artifactId>solicitor-bin</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Solicitor Binaries</name>
-    <description>Scripts for invoking the solicitor command line</description>
+    <description>Command line interface and scripts for invoking the solicitor</description>
     <url>http://maven.apache.org</url>
 </project>
