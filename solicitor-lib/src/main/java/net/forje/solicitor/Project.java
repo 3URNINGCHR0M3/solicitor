@@ -4,11 +4,13 @@ import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+* The project model data.
+*/
 class Project {
 
-
-    /** The identifier of the project, expected to be unique in the Centrepoint storage. */
-    private String id;
+    /** The identifier of the project, expected to be unique in the storage. */
+    private String _id;
 
     /** A human readable name for the project. */
     private String _name;
@@ -57,12 +59,12 @@ class Project {
 
     public String getId()
     {
-        return id;
+        return _id;
     }
 
     public void setId( String id )
     {
-        id = id;
+        _id = id;
     }
 
     public String getDescription()

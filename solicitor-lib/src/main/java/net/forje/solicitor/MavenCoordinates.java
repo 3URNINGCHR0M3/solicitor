@@ -20,7 +20,7 @@ class MavenCoordinates  implements ExtensionModel {
 
     public void setGroupId( String groupId )
     {
-        this._groupId = groupId;
+        _groupId = groupId;
     }
 
     public String getGroupId()
@@ -30,7 +30,7 @@ class MavenCoordinates  implements ExtensionModel {
 
     public void setArtifactId( String artifactId )
     {
-        this._artifactId = artifactId;
+        _artifactId = artifactId;
     }
 
     public String getArtifactId()

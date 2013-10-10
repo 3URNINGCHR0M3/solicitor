@@ -1,23 +1,23 @@
 package net.forje.solicitor;
 
-class RepositoryException extends Exception {
+public class RepositoryException extends SolicitorException {
 
-    public RepositoryException() {
+    public RepositoryException(final String message) {
+        super(message);
     }
 
-    public RepositoryException(String s) {
-        super(s);
+    public RepositoryException(final String message, final Throwable cause) {
+        super(message, cause);
     }
 
-    public RepositoryException(String s, Throwable throwable) {
-        super(s, throwable);
+    public RepositoryException(final Throwable cause) {
+        super(cause);
     }
 
-    public RepositoryException(Throwable throwable) {
-        super(throwable);
-    }
-
-    public RepositoryException(String s, Throwable throwable, boolean b, boolean b1) {
-        super(s, throwable, b, b1);
+    protected RepositoryException(final String message,
+                                  final Throwable cause,
+                                  final boolean enableSuppression,
+                                  final boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
     }
 }

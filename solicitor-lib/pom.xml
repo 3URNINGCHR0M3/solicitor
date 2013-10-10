@@ -8,7 +8,6 @@
         <groupId>net.forje</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>net.forje</groupId>
     <artifactId>solicitor-lib</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Solicitor Library</name>
@@ -40,11 +39,6 @@
         <dependency>
             <groupId>org.apache.maven</groupId>
             <artifactId>maven-artifact-manager</artifactId>
-            <version>2.2.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven</groupId>
-            <artifactId>maven-project</artifactId>
             <version>2.2.1</version>
         </dependency>
         <dependency>
